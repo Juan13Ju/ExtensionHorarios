@@ -1,0 +1,19 @@
+body {
+    width : 350px;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    padding: 10px 15px;
+    transition: all 1s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
