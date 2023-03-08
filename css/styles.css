@@ -1,7 +1,9 @@
+/*Este es para el cuadrito que sale cuando abres la extension*/
 body {
     width : 350px;
 }
 
+/*Para los efectos del boton*/
 .btn {
     background-color: blue;
     color: white;

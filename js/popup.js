@@ -1,6 +1,9 @@
 const btnBuscar = document.getElementById("btnBuscar");
 
-
+/*
+Esta es la funcion que se ejecuta cuando recibes las materias del content script (content.js),
+es un arreglo de objetos. 
+*/
 function mostrarMaterias(materias){
     console.log("Recibi: ", materias);
     let resultsDiv = document.getElementById("results");
@@ -26,6 +29,7 @@ function mostrarMaterias(materias){
         }
     }
 }
+
 btnBuscar.addEventListener("click", () => {
     let hora = document.getElementById("horario").value;
     results.replaceChildren();
